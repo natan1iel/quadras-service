@@ -1,0 +1,17 @@
+server:
+  port: ${SERVER_PORT:8080}
+
+spring:
+  application:
+    name: quadras-service
+
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/quadrasdb}
+    driver-class-name: org.postgresql.Driver
+    username: ${DB_USER:quadras_user}
+    password: ${DB_PASSWORD:quadras123}
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: false

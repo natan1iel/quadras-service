@@ -1,0 +1,16 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+quadras-service,com.volei.quadras.service,QuadraService,17,307,8,30,3,66,9,25,1,14
+quadras-service,com.volei.quadras.model,HorarioFuncionamento,6,25,0,0,3,10,2,5,2,5
+quadras-service,com.volei.quadras.model,TipoQuadra,0,15,0,0,0,3,0,1,0,1
+quadras-service,com.volei.quadras.model,Quadra,8,86,0,2,2,31,1,15,1,14
+quadras-service,com.volei.quadras.controller,QuadraController,34,25,0,2,8,8,5,4,5,3
+quadras-service,com.volei.quadras.config,DadosIniciais,103,0,4,0,17,0,5,0,3,0
+quadras-service,com.volei.quadras.exception,TratadorDeErros,15,0,0,0,3,0,2,0,2,0
+quadras-service,com.volei.quadras.exception,RegraDeNegocioException,0,38,0,0,0,9,0,6,0,6
+quadras-service,com.volei.quadras.dto,QuadraRequest,0,15,0,0,0,1,0,1,0,1
+quadras-service,com.volei.quadras.dto,QuadraResponse,0,52,0,0,0,7,0,3,0,3
+quadras-service,com.volei.quadras.dto,DisponibilidadeDTO,0,67,0,0,0,5,0,3,0,3
+quadras-service,com.volei.quadras.dto,HorarioResponse,0,23,0,0,0,2,0,2,0,2
+quadras-service,com.volei.quadras.dto,HorarioRequest,0,12,0,0,0,1,0,1,0,1
+quadras-service,com.volei.quadras.dto,ErroResponse,9,0,0,0,1,0,1,0,1,0
+quadras-service,com.volei.quadras,QuadrasApplication,8,0,0,0,3,0,2,0,2,0
