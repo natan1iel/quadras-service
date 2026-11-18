@@ -9,7 +9,7 @@ spring:
     url: ${DB_URL:jdbc:postgresql://localhost:5432/quadrasdb}
     driver-class-name: org.postgresql.Driver
     username: ${DB_USER:quadras_user}
-    password: ${DB_PASSWORD:quadras123}
+    password: ${DB_PASSWORD}
 
   jpa:
     hibernate:
